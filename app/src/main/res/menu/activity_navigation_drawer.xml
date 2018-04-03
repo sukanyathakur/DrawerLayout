@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/book_spot"
+            android:title="Book a Spot"/>
+        <item
+            android:id="@+id/list_spot"
+            android:title="List a Spot"/>
+        <item
+            android:id="@+id/past_booking"
+            android:title="Past Bookings"/>
+
+    </group>
+
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/payment"
+            android:title="Payments"/>
+
+        <item
+            android:id="@+id/promo"
+            android:title="Promos"/>
+        <item
+            android:id="@+id/wallet"
+            android:title="Wallet"/>
+        <item
+            android:id="@+id/profile"
+            android:title="My Profile"/>
+        <item
+            android:id="@+id/rating"
+            android:title="Ratings"/>
+    </group>
+
+    <group android:id="@+id/group3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/help"
+            android:title="Help"/>
+        <item
+            android:id="@+id/legal"
+            android:title="Legal"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"/>
+
+    </group>
+
+</menu>
